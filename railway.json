@@ -1,0 +1,11 @@
+{
+  "build": "npm install && npm run build",
+  "start": "npm start",
+  "env": {
+    "OPENAI_API_KEY": { "description": "Your OpenAI API key" },
+    "STRIPE_SECRET_KEY": { "description": "Your Stripe secret key" },
+    "DATABASE_URL": { "description": "PostgreSQL connection string" },
+    "REDIS_URL": { "description": "Redis connection string" },
+    "RESEND_API_KEY": { "description": "Your Resend API key" }
+  }
+}
